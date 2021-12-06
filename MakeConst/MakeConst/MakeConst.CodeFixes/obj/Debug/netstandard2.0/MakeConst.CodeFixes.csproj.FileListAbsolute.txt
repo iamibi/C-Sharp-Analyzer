@@ -1,0 +1,15 @@
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\bin\Debug\netstandard2.0\MakeConst.CodeFixes.deps.json
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\bin\Debug\netstandard2.0\MakeConst.CodeFixes.dll
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\bin\Debug\netstandard2.0\MakeConst.CodeFixes.pdb
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\bin\Debug\netstandard2.0\MakeConst.dll
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\bin\Debug\netstandard2.0\MakeConst.pdb
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.csproj.AssemblyReference.cache
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixResources.resources
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.csproj.GenerateResource.cache
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.AssemblyInfoInputs.cache
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.AssemblyInfo.cs
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.csproj.CoreCompileInputs.cache
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.csproj.CopyComplete
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.dll
+D:\.NET\C-Sharp-Analyzer\MakeConst\MakeConst\MakeConst.CodeFixes\obj\Debug\netstandard2.0\MakeConst.CodeFixes.pdb
