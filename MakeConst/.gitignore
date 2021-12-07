@@ -1,6 +1,7 @@
 .vs/
 
 MakeConst/MakeConst.Test/obj/
+MakeConst/MakeConst.Test/bin/
 
 MakeConst/MakeConst.CodeFixes/bin/
 MakeConst/MakeConst.CodeFixes/obj/
@@ -9,3 +10,6 @@ MakeConst/MakeConst/obj/
 
 MakeConst/MakeConst.Vsix/bin/
 MakeConst/MakeConst.Vsix/obj/
+
+MakeConst/MakeConst.Package/obj/
+MakeConst/MakeConst.Package/bin/

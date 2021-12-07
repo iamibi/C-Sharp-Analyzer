@@ -6,54 +6,35 @@ using VerifyCS = MakeConst.Test.CSharpCodeFixVerifier<
 
 namespace MakeConst.Test
 {
-    [TestClass]
+    [TestClass()]
     public class MakeConstUnitTest
     {
-        //No diagnostics expected to show up
         [TestMethod]
-        public async Task TestMethod1()
+        public async Task LocalIntCouldBeConstant_Diagnostic()
         {
-            var test = @"";
+            await VerifyCS.VerifyCodeFixAsync(@"
+using System;
 
-            await VerifyCS.VerifyAnalyzerAsync(test);
-        }
-
-        //Diagnostic and CodeFix both triggered and checked for
-        [TestMethod]
-        public async Task TestMethod2()
-        {
-            var test = @"
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using System.Diagnostics;
-
-    namespace ConsoleApplication1
+class Program
+{
+    static void Main()
     {
-        class {|#0:TypeName|}
-        {   
-        }
-    }";
+        [|int i = 0;|]
+        Console.WriteLine(i);
+    }
+}
+", @"
+using System;
 
-            var fixtest = @"
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using System.Diagnostics;
-
-    namespace ConsoleApplication1
+class Program
+{
+    static void Main()
     {
-        class TYPENAME
-        {   
-        }
-    }";
-
-            var expected = VerifyCS.Diagnostic("MakeConst").WithLocation(0).WithArguments("TypeName");
-            await VerifyCS.VerifyCodeFixAsync(test, expected, fixtest);
+        const int i = 0;
+        Console.WriteLine(i);
+    }
+}
+");
         }
     }
 }
