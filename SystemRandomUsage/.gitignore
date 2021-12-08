@@ -1,0 +1,16 @@
+.vs/
+
+SystemRandomUsage/SystemRandomUsage.Test/obj/
+SystemRandomUsage/SystemRandomUsage.Test/bin/
+
+SystemRandomUsage/SystemRandomUsage.CodeFixes/bin/
+SystemRandomUsage/SystemRandomUsage.CodeFixes/obj/
+
+SystemRandomUsage/SystemRandomUsage/obj/
+SystemRandomUsage/SystemRandomUsage/bin/
+
+SystemRandomUsage/SystemRandomUsage.Vsix/bin/
+SystemRandomUsage/SystemRandomUsage.Vsix/obj/
+
+SystemRandomUsage/SystemRandomUsage.Package/obj/
+SystemRandomUsage/SystemRandomUsage.Package/bin/
